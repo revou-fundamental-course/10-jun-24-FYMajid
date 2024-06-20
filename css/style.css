@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* style header */
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 100px 100px 50px 100px;
+}
+
+header p {
+  margin-top: 10px;
+}
+
+/* style input content */
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  /* padding: 20px; */
+}
+
+.container .content-celsius {
+  display: flex;
+  padding-bottom: 20px;
+  flex-direction: column;
+}
+
+.container .content-celsius .celsius-btn {
+  margin-top: 10px;
+}
+
+.container .content-celsius .celsius-btn button {
+  padding: 5px;
+}
+.container .content-celsius .celsius-btn #konversi {
+  margin-right: 2px;
+}
+.container .content-celsius .celsius-btn #reset {
+  margin-right: 2px;
+}
+
+.container .content-fahrenheit {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 20px;
+}
+
+.container .content-kalkulasi {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 20px;
+}
+
+.container .content-footer span {
+  color: purple;
+}

@@ -8,7 +8,7 @@
   </head>
   <body>
     <!-- header -->
-    <header class="">
+    <header>
       <h1>Website Konversi Suhu</h1>
       <p>
         Masukkan suhu derajat Celcius (&deg;C) ke kotak dibawah, lalu klik
@@ -17,23 +17,25 @@
       </p>
     </header>
     <!-- section celcius input -->
-    <section>
-      <div>
+    <section class="container">
+      <div class="content-celsius">
         <label for="">Celsius (&deg;C)</label>
-        <textarea name="" id=""></textarea>
-        <button>Konversi</button>
-        <button>Reset</button>
-        <button>Reverse</button>
+        <textarea name="" id="" rows="5"></textarea>
+        <div class="celsius-btn">
+          <button id="konversi">Konversi</button>
+          <button id="reset">Reset</button>
+          <button id="reverse">Reverse</button>
+        </div>
       </div>
-      <div>
+      <div class="content-fahrenheit">
         <label for="">Fahrenheit (&deg;F)</label>
-        <textarea name="" id=""></textarea>
+        <textarea name="" id="" rows="5"></textarea>
       </div>
-      <div>
+      <div class="content-kalkulasi">
         <label for="">Cara Kalkulasi</label>
-        <textarea name="" id=""></textarea>
+        <textarea name="" id="" rows="5"></textarea>
       </div>
-      <div>
+      <div class="content-footer">
         <span>Fahrenheit Ke Celsius</span>
       </div>
     </section>
